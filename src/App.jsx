@@ -9,8 +9,14 @@ function App() {
     
   }
   function decrease(){
-   setnum(num-1)
-    
+if(num == 0) {
+ setnum(num=0)
+
+}
+    else{
+      setnum(num-1)
+
+    }
 
   }
     function jumpfive(){
